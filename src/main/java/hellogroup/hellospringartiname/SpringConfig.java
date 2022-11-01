@@ -1,5 +1,6 @@
 package hellogroup.hellospringartiname;
 
+import hellogroup.hellospringartiname.aop.TimeTraceAop;
 import hellogroup.hellospringartiname.repository.JpaMemberRepository;
 import hellogroup.hellospringartiname.repository.MemberRepository;
 import hellogroup.hellospringartiname.repository.MemoryMemberRepository;
@@ -42,4 +43,5 @@ public class SpringConfig {
 ////        return new MemoryMemberRepository();
 ////        return new JpaMemberRepository(em);
 //    }
+
 }
